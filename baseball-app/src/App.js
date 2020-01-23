@@ -18,7 +18,18 @@ function App() {
         outs={outs}
         balls={balls}
       />
-      <Dashboard />
+      <Dashboard
+        setHomeHits={setHomeHits}
+        setAwayHits={setAwayHits}
+        setStrikes={setStrikes}
+        setOuts={setOuts}
+        setBalls={setBalls}
+        homeHits={homeHits}
+        awayHits={awayHits}
+        strikes={strikes}
+        outs={outs}
+        balls={balls}
+      />
     </div>
   );
 }
