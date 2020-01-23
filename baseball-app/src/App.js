@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Display from "./components/Display";
+import Dashboard from "./components/Dashboard";
 import "./App.css";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         outs={outs}
         balls={balls}
       />
+      <Dashboard />
     </div>
   );
 }

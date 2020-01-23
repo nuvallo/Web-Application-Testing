@@ -4,11 +4,11 @@ function Dashboard() {
   return (
     <div className="dashboard">
       <div className="Buttons">
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
+        <button>Hit</button>
+        <button>Strike</button>
+        <button>Ball</button>
+        <button>Out</button>
+        <button>Foul</button>
       </div>
     </div>
   );
