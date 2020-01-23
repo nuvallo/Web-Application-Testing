@@ -10,7 +10,13 @@ function App() {
   const [balls, setBalls] = useState(0);
   return (
     <div className="App">
-      <Display />
+      <Display
+        homeHits={homeHits}
+        awayHits={awayHits}
+        strikes={strikes}
+        outs={outs}
+        balls={balls}
+      />
     </div>
   );
 }
