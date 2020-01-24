@@ -1,0 +1,27 @@
+.display {
+  text-align: center;
+  background-color: aqua;
+  max-width: 500px;
+  margin: 5% auto;
+}
+
+.dashboard {
+  margin: 0 auto;
+  max-width: 480px;
+}
+
+.buttons,
+button {
+  margin: 1% !important;
+  padding: 10px;
+  border: none;
+}
+
+.display-title {
+  padding: 20px;
+}
+
+.display-title,
+span {
+  font-weight: bold;
+}

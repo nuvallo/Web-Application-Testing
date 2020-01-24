@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import NavBar from "./components/Navigation";
 import Display from "./components/Display";
 import Dashboard from "./components/Dashboard";
+
 import "./App.css";
 
 function App() {
@@ -11,6 +13,7 @@ function App() {
   const [balls, setBalls] = useState(0);
   return (
     <div className="App">
+      <NavBar />
       <Display
         homeHits={homeHits}
         awayHits={awayHits}
